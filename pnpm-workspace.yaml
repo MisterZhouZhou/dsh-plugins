@@ -1,0 +1,13 @@
+packages:
+  - 'shared'
+  - 'packages/*'
+
+autoInstallPeers: false
+linkWorkspacePackages: true
+
+allowBuilds:
+  cloudflared: true
+  cpu-features: true
+  esbuild: true
+  node-pty: true
+  ssh2: true

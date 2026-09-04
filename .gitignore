@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+*.log
+
+# Build output
+lib/
+dist/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Test artifacts
+coverage/
+test-results/
+.playwright/
